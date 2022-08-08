@@ -2643,6 +2643,17 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+		.image-mountains {
+			width: 750px;
+			height: 300px;
+			background-image: url(images/eagles_nest_mountains-2.jpg);
+			background-size: cover;
+			background-position:top;
+			text-align: center;
+			color: rgb(46, 46, 46);
+			text-shadow: #787878;
+		}
+	
 /* Footer */
 
 	#footer .icons {
