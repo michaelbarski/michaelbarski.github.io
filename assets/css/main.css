@@ -154,6 +154,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		text-align: center;
 	}
 
 	h3 {
@@ -2649,9 +2650,6 @@ input, select, textarea {
 			background-image: url(images/eagles_nest_mountains-2.jpg);
 			background-size: cover;
 			background-position:top;
-			text-align: center;
-			color: rgb(46, 46, 46);
-			text-shadow: #787878;
 		}
 	
 /* Footer */
@@ -2691,6 +2689,11 @@ input, select, textarea {
 			}
 
 /* Main */
+#banner {
+	margin-left: 35%;
+	/* padding: 8em 4em 4em 4em; */
+	width: calc(100% - 35%);
+}
 
 	#main {
 		margin-left: 35%;
